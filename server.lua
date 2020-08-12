@@ -1,3 +1,4 @@
+print('Started KDF AdvancedMeth By: KleurenDoof')
 local playersProcessingMeth = {}
 ESX = nil
 TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
