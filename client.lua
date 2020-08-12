@@ -24,8 +24,6 @@ local HasAlreadyEnteredMarker = false
 local LastZone                = nil
 ESX = nil
 
-
-
 function startUI(time, text) 
 	SendNUIMessage({
 		type = "ui",
@@ -35,9 +33,6 @@ function startUI(time, text)
 	})
 end
 
-
-
-----markers
 AddEventHandler('meth:hasEnteredMarker', function(zone)
   if zone == 'methlab_maken' then
     CurrentAction     = 'methlab_action'
@@ -55,7 +50,6 @@ AddEventHandler('meth:hasExitedMarker', function(zone)
   CurrentAction = nil
 end)
 
---keycontrols
 Citizen.CreateThread(function ()
   while true do
     Citizen.Wait(0)
@@ -82,7 +76,7 @@ RegisterNetEvent('meth:maakLab')
 AddEventHandler('meth:maakLab', function ()
 	local playerPed = PlayerPedId()
 	TaskStartScenarioInPlace(playerPed, 'PROP_HUMAN_BUM_BIN', 0, true)
-	startUI(25000, "Methlab in elkaar zetten...") -- exports['progressBars']:
+	startUI(25000, "Methlab in elkaar zetten...")
 	Citizen.Wait(25000)
 	ClearPedTasksImmediately(playerPed)
 	TriggerServerEvent('meth:geefLab')
@@ -92,7 +86,7 @@ RegisterNetEvent('meth:processmeth')
 AddEventHandler('meth:processmeth', function ()
 	local playerPed = PlayerPedId()
 	TaskStartScenarioInPlace(playerPed, 'PROP_HUMAN_BUM_BIN', 0, true)
-	startUI(4000, "Meth crystallen verpakken...") -- exports['progressBars']:
+	startUI(4000, "Meth crystallen verpakken...")
 	Citizen.Wait(4000)
 	ClearPedTasksImmediately(playerPed)
 	TriggerServerEvent('meth:geefmeth')
@@ -103,13 +97,10 @@ AddEventHandler('meth:methloop', function ()
 	TriggerServerEvent('meth:meth_processing')
 end)
 
--- Display markers
 Citizen.CreateThread(function ()
   while true do
     Wait(0)
-
     local coords = GetEntityCoords(GetPlayerPed(-1))
-
     for k,v in pairs(Config.Zones) do
       if(v.Type ~= -1 and GetDistanceBetweenCoords(coords, v.Pos.x, v.Pos.y, v.Pos.z, true) < Config.DrawDistance) then
         DrawMarker(v.Type, v.Pos.x, v.Pos.y, v.Pos.z, 0.0, 0.0, 0.0, 0, 0.0, 0.0, v.Size.x, v.Size.y, v.Size.z, v.Color.r, v.Color.g, v.Color.b, 100, false, true, 2, false, false, false, false)
@@ -118,7 +109,6 @@ Citizen.CreateThread(function ()
   end
 end)
 
--- Enter / Exit marker events
 Citizen.CreateThread(function ()
   while true do
     Wait(0)
@@ -143,35 +133,12 @@ Citizen.CreateThread(function ()
   end
 end)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 function DisplayHelpText(str)
 	SetTextComponentFormat("STRING")
 	AddTextComponentString(str)
 	DisplayHelpTextFromStringLabel(0, 0, 1, -1)
 end
+
 Citizen.CreateThread(function()
 	while ESX == nil do
 		TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
@@ -221,7 +188,6 @@ AddEventHandler('esx_methcar:blowup', function(posx, posy, posz)
 	local fire = StartParticleFxLoopedAtCoord("ent_ray_heli_aprtmnt_l_fire", posx, posy, posz-0.8 , 0.0, 0.0, 0.0, 0.8, false, false, false, false)
 	Citizen.Wait(6000)
 	StopParticleFxLooped(fire, 0)
-	
 end)
 
 RegisterNetEvent('esx_methcar:smoke')
@@ -710,7 +676,3 @@ Citizen.CreateThread(function()
 
 	end
 end)
-
-
-
-

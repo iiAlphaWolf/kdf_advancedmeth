@@ -1,6 +1,5 @@
 Config                            = {}
 Config.DrawDistance               = 5.0
-
 Config.Zones = {
   methlab_maken = {
     Pos   = { x = 472.05, y = -1310.56, z = 29.22 },
