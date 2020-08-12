@@ -8,6 +8,11 @@ Before you thank me credits for the base script go to: https://github.com/Kuzkay
 I used his script with permissions to change it up. Also i implented "progressBars" in this script so you don't need any external scripts.
 The original source for the progressBars can be found here: https://github.com/EthanPeacock/progressBars/tree/1.0
 
+Do not change, and or publish my modification of Kuzkay's script without permissions! You are allowed to use it in your FiveM server.
+If you want to donate you can do that here: paypal.me/itsmeralphs
+
+
+
 Kind regards,
 
 KleurenDoof
