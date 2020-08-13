@@ -1,0 +1,101 @@
+Locales['en'] = {
+  ['assemble_lab'] = 'Druk op ~INPUT_CONTEXT~ om een ~g~methlab~s~ in elkaar te zetten.',
+  ['meth_processing'] = 'Druk op ~INPUT_CONTEXT~ om de ~g~meth kristallen~s~ te verpakken.',
+  ['make_lab_bar'] = 'Methlab in elkaar zetten...',
+  ['make_meth_bags'] = 'Methkristallen verpakken...',
+  ['production_stop'] = 'Productie gestopt...',
+  ['start_production'] = 'Productie starten...',
+  ['started_print'] = 'Begonnen met meth productie!',
+  ['started_notifi'] = 'Het produceren van meth is begonnen.',
+  ['start_making'] = 'Druk op ~INPUT_THROW_GRENADE~ om meth te koken.',
+  ['car_occupied'] = 'Deze camper is al bezet!',
+  ['close_to_city'] = 'Je bent te dichtbij de stad, Ga verder weg van de stad om te beginnen.',
+  ['progress_making'] = '~r~Meth productie: ~g~~h~',
+  ['leak_question'] = '~o~De gasleiding is aan het lekken, wat doe je?',
+  ['fix_tape'] = '~o~1. Plak het dicht met tape.',
+  ['fix_ignore'] = '~o~2. Laat het zoals het is.',
+  ['fix_replace'] = '~o~3. Vervang de gasleiding.',
+  ['tape_kinda'] = '~r~De tape heeft de lek een soort van dicht gemaakt...',
+  ['big_boom'] = '~r~De glasfles is ontploft...',
+  ['replace_pipe'] = '~r~Goed gedaan! Achteraf was de gasleiding niet meer te gebruiken.',
+  ['acetone_ground'] = '~o~Je hebt een kan aceton laten vallen op de grond, wat doe je?',
+  ['windows_open'] = '~o~1. Open de ramen op de geur weg te laten gaan.',
+  ['ignore_spill'] = '~o~2. Laat het liggen.',
+  ['gasmask'] = '~o~3. Doe een gasmasker op.',
+  ['windows_opened'] = '~r~Je hebt de ramen geopend om van de geur af te komen.',
+  ['acetone_high'] = '~r~Oei je hebt te veel dampen van de aceton ingeademd, nu ben je high :)',
+  ['gasmask_on'] = '~r~Dat was een slimme keuze.',
+  ['meth_solid'] = '~o~Het meth word te snel te hard, wat doe je?',
+  ['pressure_high'] = '~o~1. Verhoog de druk.',
+  ['more_temp'] = '~o~2. Verhoog de temperatuur.',
+  ['lower_temp'] = '~o~3. Minder druk.',
+  ['raised_temp'] = '~r~De temperatuur verhogen heeft geholpen!',
+  ['pressure_raised'] = '~r~Je hebt de druk laten stijgen, waardoor er minder propaan is, dit zal het probleem tijdelijk verhelpen.',
+  ['lower_worse'] = '~r~Druk verlagen heeft het probleem alleen maar erger gemaakt...',
+  ['much_acetone'] = '~o~Je hebt perongeluk te veel aceton in de mix gedaan, wat doe je?',
+  ['ignore_acetone'] = '~o~1. Laat het zoals het nu is.',
+  ['sucking_out'] = '~o~2. Probeer het eruit te halen met een pipet.',
+  ['balance'] = '~o~3. Voeg meer lithium toe aan de mix zodat het gelijk blijft.',
+  ['smelling_acetone'] = '~r~De meth ruikt nu erg naar aceton, dit is niet zo goed!',
+  ['too_much'] = '~r~Dit heeft een beetje geholpen maar er zit nog steeds te veel in.',
+  ['balanced_chems'] = '~r~Goed zo! De mix is nu stabiel en gelijk zoals het hoort.',
+  ['coloring'] = '~o~Je hebt kleurstof gevonden, wat doe je?',
+  ['add_coloring'] = '~o~1. Doe een beetje bij de meth.',
+  ['put_away'] = '~o~2. Zet het netjes weg.',
+  ['drink_it'] = '~o~3. Probeer het te drinken.',
+  ['good_idea'] = '~r~Goed idee! Is wat anders dan normaal. Mensen houden van kleurtjes!',
+  ['taste_meth'] = '~r~Hmmm, het kan natuurlijk de smaak van het meth verpesten...',
+  ['dizzy'] = '~r~Je voelt je eigen niet helemaal goed, maar het gaat al over.',
+  ['clogged_filter'] = '~o~De filter zit verstopt, wat doe je?',
+  ['comressed_air'] = '~o~1. Maak de filter scoon met een compressor.',
+  ['filter_replace'] = '~o~2. Vervang de filter.',
+  ['tooth_brush'] = '~o~3. Maak de filter schoon met een tandenborstel.',
+  ['spilled_meth'] = '~r~De compressor heeft meth overal overheen gespoten...',
+  ['replacing_filter'] = '~r~Goede keuze, de filter is vervangen en werkt zoals nieuw!',
+  ['still_dirty'] = '~r~Dit zal tijdelijk werken, er zit namelijk nog een beetje vuil in.',
+  ['take_a_shit'] = '~o~Je moet naar het toilet, wat doe je?',
+  ['hold_it'] = '~o~1. Ophouden.',
+  ['take_shit'] = '~o~2. Doe buiten je behoefte.',
+  ['shit_inside'] = '~o~3. Doe binnen je behoefte.',
+  ['glassin_meth'] = '~o~Voeg je wat glas toe aan de meth zodat het lijkt alsof je meer hebt?',
+  ['shit_meth'] = '~r~Het stinkt nu... Zelfs de meth stinkt naar je behoefte...',
+  ['glass_fell'] = '~r~Toen je buiten je behoefte aan het doen was viel er een glas om met meth...',
+  ['shit_later'] = '~r~Goede keuze, drugs is belangrijker dan je behoefte doen.',
+  ['meth_toglass'] = '~o~3. Wat als ik meth aan glas toevoeg Hmmm?',
+  ['yes'] = '~o~1. Ja!',
+  ['no'] = '~o~2. Nee',
+  ['finished'] = '~g~~h~Productie afgerond!',
+  ['more_crystals'] = '~r~Je hebt iets meer kristallen gekregen dan normaal.',
+  ['high_quality'] = '~r~Je bent een goede meth chef, het is hoge kwaliteit!',
+  ['too_much'] = '~r~Dat is iets te veel... er is meer glas dan meth maar oke.',
+  ['sel_1'] = 'Gekozen: 1',
+  ['selected_1'] = '~g~Gekozen voor optie 1',
+  ['sel_2'] = 'Gekozen: 2',
+  ['selected_2'] = '~g~Gekozen voor optie 2',
+  ['sel_3'] = 'Gekozen: 3',
+  ['selected_3'] = '~g~Gekozen voor optie 3',
+  ['stopped_drugs'] = 'Gestopt met koken',
+  ['press_number'] = '~c~Druk op een nummer die je wilt kiezen.',
+  ['1_lab'] = "Je hebt al een methlab, je kan er niet meer dragen!",
+  ['items_short'] = 'Je hebt niet alle spullen om een methlab te maken! (Een lijst met spullen kan je kopen bij de dealer!)',
+  ['no_stuff'] = 'Je hebt niet genoeg zakjes of meth!',
+  ['too_much'] = '~r~~h~Je kan niet meer meth dragen!',
+  ['no_supplies'] = '~r~~h~Je hebt niet genoeg spullen om te beginnen met koken!',
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
