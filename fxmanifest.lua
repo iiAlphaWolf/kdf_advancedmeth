@@ -4,17 +4,21 @@ game "gta5"
 author "KleurenDoof (Ralph Stoop)"
 description "Advanced (Breaking Bad) meth script"
 version "1.0.0"
-ui_page "h.html"
+ui_page "html/h.html"
 
 client_script {
-	"client.lua",
+	"@es_extended/locale.lua",
+	"client/client.lua",
+	"locales/en.lua",
 	"config.lua"
 }
 server_script {
-	"server.lua",
+	"@es_extended/locale.lua",
+	"server/server.lua",
+	"locales/en.lua",
 	"config.lua"
 }
 
 files {
-    "h.html"
+    "html/h.html"
 }

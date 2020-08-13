@@ -1,7 +1,9 @@
 Config                            = {}
+Config.Locale = 'en'
+
 Config.DrawDistance               = 5.0
 Config.Zones = {
-  methlab_maken = {
+  make_lab = {
     Pos   = { x = 472.05, y = -1310.56, z = 29.22 },
     Size  = { x = 0.5, y = 0.5, z = 0.5 },
     Color = { r = 0, g = 255, b = 0 },  
